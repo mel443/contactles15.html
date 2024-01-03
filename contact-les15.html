@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lijsten</title>
+<style type="text/css">
+body{
+background-color: skyblue;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    }
+    li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid green;
+    border-right: 1px solid green;
+    background-color: olive;
+    }
+    li:hover{
+    background-color: lightgreen;
+    border-style: none;
+    }
+    h1{
+    margin-left: 200px;
+    }
+
+</style>
+</head>
+<body>
+    <h1>Mijn opleiding/ werkervaring</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <div id="fcf-form">
+            <h3 class="fcf-h3">Contacteer mij</h3>
+        
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <div class="fcf-form-group">
+                    <label for="Naam" class="fcf-label">Voornaam</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Naam" name="Naam" class="fcf-form-control" required>
+                    </div>
+
+                    div class="fcf-form-group">
+                    <label for="Naam" class="fcf-label">Achternaam</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Achternaam" name="Achternaam" class="fcf-form-control" required>
+                    </div>
+                    
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">email</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">bericht/label>
+                    <div class="fcf-input-group">
+                        <textarea id="Bericht" name="Bericht" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Verstuur bericht</button>
+                </div>
+    </body>
+<h1>Mijn Pagina</h1>
+<ul>
+<li><a href="#">Pagina 1</a></li>
+<li><a href="#">Pagina 2</a></li>
+<li><a href="#">Pagina 3</a></li>
+<li><a href="#">Pagina 4</a></li>
+<li><a href="#">Pagina 5</a></li>
+<li><a href="#">Pagina 6</a></li>
+</ul>
+<footer>&copy; Copyright 2024 HTML.am</footer>
+</body>
+</html>
